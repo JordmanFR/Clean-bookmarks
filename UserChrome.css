@@ -4,6 +4,7 @@
 #personal-bookmarks .bookmark-item[container="true"] .toolbarbutton-icon {
  display:none!important;
 }
+/* center bookmark */
 #PlacesToolbarItems {
   display: flex !important;
   justify-content: center !important;
