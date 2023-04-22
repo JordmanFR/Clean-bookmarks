@@ -1,7 +1,7 @@
 # Clean bookmarks
 This is my userChrome.css file.
 
-it's made so that your bookmarks are centered and the folder icon is hidden.
+It's made so that my bookmarks are centered and the folder icon is hidden.
 
 
 ![220423](https://user-images.githubusercontent.com/83400726/233775520-7a18aefc-4d55-4834-adda-a2b84da42311.png)
