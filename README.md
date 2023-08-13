@@ -8,7 +8,7 @@ It's made so that my bookmarks are centered and the folder icon is hidden.
 
 
 # Setting Up
-Follow this guide to create a userChrome.css file and make Firefox/Librewolf look it up
+Follow this guide to create a userChrome.css file for Firefox/Librewolf (requiered)
 
 https://www.userchrome.org/how-create-userchrome-css.html
 
