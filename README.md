@@ -1,7 +1,3 @@
-Voici une version restructurée et mise en forme avec Markdown pour plus de clarté et de visibilité :
-
----
-
 # 🧹 **Nettoyage des marque-pages Firefox**  
 *Personnalisation de la barre personnelle avec userChrome.css*
 
