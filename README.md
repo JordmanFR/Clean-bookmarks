@@ -1,17 +1,86 @@
-# Clean bookmarks
-This is my userChrome.css file.
+Voici une version restructurée et mise en forme avec Markdown pour plus de clarté et de visibilité :
 
-It's made so that my bookmarks are centered and the folder icon is hidden.
+---
 
+# 🧹 **Nettoyage des marque-pages Firefox**  
+*Personnalisation de la barre personnelle avec userChrome.css*
 
-![220423](https://user-images.githubusercontent.com/83400726/233775520-7a18aefc-4d55-4834-adda-a2b84da42311.png)
+🔖 **Ce fichier CSS permet de :**
+- Masquer le texte des dossiers
+- Centrer les marque-pages
+- Séparer visuellement dossiers (à gauche) et favoris (à droite)
+  
 
+![Prévisualisation](https://user-images.githubusercontent.com/83400726/233775520-7a18aefc-4d55-4834-adda-a2b84da42311.png)
 
-# Setting Up
-Follow this guide to create a userChrome.css file for Firefox/Librewolf (requiered)
+---
 
-https://www.userchrome.org/how-create-userchrome-css.html
+## 🔧 **Configuration requise**
 
-Replace the blank userChrome.css blank file provided in the tutorial by this one
+### 1. Accéder au dossier de profil
+```bash
+Menu Firefox (☰) > Aide > Plus d'informations de dépannage
+```
+**OU**  
+Collez directement dans la barre d'adresse :  
+`about:support`
 
-https://github.com/JordmanFR/Firefox-Librewolf-userChrome.css/releases
+### 2. Ouvrir le dossier utilisateur
+- Sur la page *Informations de dépannage* :  
+  **→ Cliquez sur *Ouvrir le dossier***  
+
+⚠️ **Cas particulier** (Firefox Microsoft Store) :  
+```bash
+%LOCALAPPDATA%\Packages > Mozilla.Firefox... > Profiles
+```
+
+---
+
+## 🛠️ **Mise en place**
+
+### 3. Créer le dossier `chrome`
+| Système | Méthode |
+|---------|---------|
+| **Windows** | `Clic droit > Nouveau > Dossier` → Nommez-le `chrome` |
+| **Mac** | `Ctrl + clic > Nouveau dossier` → Nommez-le `chrome` |
+
+### 4. Afficher les extensions de fichiers
+| Système | Instructions |
+|---------|--------------|
+| **Windows** | `Onglet Affichage` → ✅ `Extensions de noms de fichiers` |
+| **Mac** | `Finder > Préférences > Avancé` → ✅ `Afficher toutes les extensions` |
+
+---
+
+## ⚡ **Installation du style**
+
+### 5. Télécharger userChrome.css
+[![Télécharger le fichier](https://img.shields.io/badge/📥-Télécharger_userChrome.css-blue?style=for-the-badge)](https://github.com/Jrdmn/Firefox-Librewolf-userChrome.css/releases)
+
+👉 **Placez le fichier dans :**  
+`[dossier profil]/chrome/userChrome.css`
+
+---
+
+## ⚙️ **Activation (Firefox 69+)**
+1. Collez dans la barre d'adresse :  
+   `about:config` → Confirmez les risques
+2. Recherchez :  
+   ```css
+   toolkit.legacyUserProfileCustomizations.stylesheets
+   ```
+3. **Double-cliquez** pour passer la valeur à :  
+   ✅ **`true`**
+
+🔁 **Redémarrez Firefox pour appliquer les changements**
+
+---
+
+💡 **Astuce** : Créez un raccourci bureau vers le dossier `chrome` pour modifier facilement le CSS plus tard !
+
+```diff
++ Modification visuelle réussie lorsque :
+- Les textes des dossiers disparaissent
+- Les icônes sont centrées
+- Séparation gauche/droite visible
+```
