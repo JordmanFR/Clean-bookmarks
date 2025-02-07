@@ -14,21 +14,21 @@
 ## 🔧 **Configuration requise**
 
 ### 1. Accéder au dossier de profil
-```bash
 Menu Firefox (☰) > Aide > Plus d'informations de dépannage
-```
+
 **OU**  
 Collez directement dans la barre d'adresse :  
-`about:support`
+```bash
+about:support
+```
 
 ### 2. Ouvrir le dossier utilisateur
 - Sur la page *Informations de dépannage* :  
   **→ Cliquez sur *Ouvrir le dossier***  
 
 ⚠️ **Cas particulier** (Firefox Microsoft Store) :  
-```bash
 %LOCALAPPDATA%\Packages > Mozilla.Firefox... > Profiles
-```
+
 
 ---
 
