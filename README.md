@@ -28,13 +28,13 @@ about:support
 %LOCALAPPDATA%\Packages > Mozilla.Firefox... > Profiles
 
 
-### 3. Créer le dossier `chrome`
+### 2. Créer le dossier `chrome`
 | Système | Méthode |
 |---------|---------|
 | **Windows** | `Clic droit > Nouveau > Dossier` → Nommez-le `chrome` |
 | **Mac** | `Ctrl + clic > Nouveau dossier` → Nommez-le `chrome` |
 
-### 4. Afficher les extensions de fichiers
+### 3. Afficher les extensions de fichiers
 | Système | Instructions |
 |---------|--------------|
 | **Windows** | `Onglet Affichage` → ✅ `Extensions de noms de fichiers` |
@@ -42,7 +42,7 @@ about:support
 
 
 
-### 5. Télécharger userChrome.css
+### 4. Télécharger userChrome.css
 [![Télécharger le fichier](https://img.shields.io/badge/📥-Télécharger_userChrome.css-blue?style=for-the-badge)](https://github.com/Jrdmn/Firefox-Librewolf-userChrome.css/releases)
 
 **Placez le fichier dans :**  
